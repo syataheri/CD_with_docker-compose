@@ -1,0 +1,20 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "get long url and code it and make it short",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles --maxWorkers=1",
+    "start": "nodemon app.js"
+  },
+  "author": "syataheri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
